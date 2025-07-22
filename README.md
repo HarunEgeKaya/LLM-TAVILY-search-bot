@@ -1,1 +1,10 @@
-# LLM-TAVILY-search-bot
+#Bu projede gemini kullanılmaktadır.
+
+GEMINI_API_KEY="Your Key"
+LANGCHAIN_API_KEY="Your Key"
+
+LANGCHAIN_TRACING_V2=true
+
+LANGCHAIN_PROJECT=AGENTINTRO
+
+TAVILY_API_KEY="Your Key"
