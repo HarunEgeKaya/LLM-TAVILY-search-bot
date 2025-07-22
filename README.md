@@ -9,3 +9,5 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_PROJECT=AGENT
 
 TAVILY_API_KEY="Your Key"
+
+.env olarak kaydedin.
