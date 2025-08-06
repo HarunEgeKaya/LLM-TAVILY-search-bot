@@ -1,7 +1,9 @@
 # LLM-TAVILY-search-bot
 
 Bu projede Gemini kullanılmaktadır. Python sanal makina kurmanız gerekmektedir.
+```bash
 python -m venv .venv
+```
 
 Bu sistem, kullanıcıdan gelen soruları alır ve Gemini 2.0 Flash modeli ile işleyerek
 bağlama dayalı akıllı cevaplar üretir. Ayrıca TavilySearchResults aracı ile ilgili aramalar yapılabilir.
@@ -26,8 +28,8 @@ Hafıza (opsiyonel): Sqlite in-memory
 Bazı durumlarda Tavily aracı ilk sorgudan sonra tekrar kullanılmayabilir.
 Soruları İngilizce sormak, modelin daha doğru yanıt vermesini sağlar.
 
-# Ortam Değişkenleri (.env)
-"""
+## Ortam Değişkenleri (`.env`)
+"""env
 GEMINI_API_KEY=your_api_key
 LANGCHAIN_API_KEY=your_key
 LANGCHAIN_TRACING_V2=true
