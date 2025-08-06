@@ -29,12 +29,12 @@ Bazı durumlarda Tavily aracı ilk sorgudan sonra tekrar kullanılmayabilir.
 Soruları İngilizce sormak, modelin daha doğru yanıt vermesini sağlar.
 
 ## Ortam Değişkenleri (`.env`)
-"""env
+```env
 GEMINI_API_KEY=your_api_key
 LANGCHAIN_API_KEY=your_key
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_PROJECT=AGENT
 TAVILY_API_KEY=your_key
-"""
+```
 
 .env dosyasını kaydedin ve ana Python dosyasını çalıştırmadan önce yükleyin.
